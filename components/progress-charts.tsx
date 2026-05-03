@@ -275,7 +275,12 @@ export function ProgressCharts({ data }: ProgressChartsProps) {
         <CardContent className="p-6">
           <div className="h-[300px] w-full">
             <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={testChartData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+              <LineChart 
+                data={testChartData} 
+                margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                aria-label="Daily Total Carbon Footprint Line Chart"
+                role="img"
+              >
                 <XAxis 
                   dataKey="date" 
                   stroke="#e5e7eb"
