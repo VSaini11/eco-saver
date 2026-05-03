@@ -229,8 +229,8 @@ export default function EcoSaverApp() {
 
         <div className="tabs-container">
           <Tabs defaultValue="input" className="space-y-6">
-            <div className="w-full overflow-hidden">
-              <TabsList className="w-full h-auto p-0 bg-transparent border-none">
+            <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide">
+              <TabsList className="inline-flex h-auto p-0 bg-transparent border-none">
                 <div className="tabs-list-wrapper">
                   <div className="tabs-grid">
                     <TabsTrigger 
